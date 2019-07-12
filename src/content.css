@@ -1,0 +1,13 @@
+/* 内容区 */
+.xx-content{
+    box-sizing: border-box;
+    position: relative;
+    overflow-y: auto;
+}
+/* 根据header和navbar自动适应内容区高度 */
+.xx-header ~ .xx-content{
+    padding-top: 2.3rem;
+}
+.xx-navbar ~ .xx-content{
+    padding-bottom: 2.5rem;
+}
